@@ -1,0 +1,30 @@
+{
+    "name": "knorkfork/load-environment",
+    "description": "Load environment variables from .env file",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luka Knezic",
+            "email": "looka1998+packagist@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "KnorkFork\\LoadEnvironment\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "KnorkFork\\LoadEnvironment\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.69",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^12.0"
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}

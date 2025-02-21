@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+scripts/php-cs-fixer;
+scripts/phpstan;
+scripts/phpunit;
