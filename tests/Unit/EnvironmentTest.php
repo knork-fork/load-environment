@@ -9,7 +9,7 @@ use KnorkFork\LoadEnvironment\Tests\Common\UnitTestCase;
 /**
  * @internal
  */
-final class EnvironmentLoaderTest extends UnitTestCase
+final class EnvironmentTest extends UnitTestCase
 {
     public function testLoadLoadsFromEnvAndEnvLocal(): void
     {
